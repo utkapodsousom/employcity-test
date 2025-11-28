@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Employcity Test Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- inject:css -->
+    <!-- endinject -->
+  </head>
+  <body>
+    <div class="hero">
+      <header class="header header--fixed">
+        <div class="layout">
+          <div class="header__inner">
+            <a href="#" class="header__logo"
+              >LoremIpsum.<span
+                class="header__logo-text header__logo-text--color"
+                >Net</span
+              ></a
+            >
+            <!-- added: mobile nav toggle button -->
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__label sr-only">Меню</span>
+            </button>
+            <!-- added end -->
+            <nav class="nav" id="main-nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link nav__link--current">Бизнес</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Цены</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Оформить заказ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="hero__banner">
+        <div class="layout">
+          <div class="hero__container">
+            <h1 class="hero__title">
+              <span class="hero__title-accent">Lorem ipsum</span> dolor sit amet
+              consectetur <span class="hero__title-accent">adipiscing</span>
+            </h1>
+            <p class="hero__text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus!
+            </p>
+            <ul class="hero__list">
+              <li class="hero__item">
+                <p class="hero__item-text">Totam rem aperiam eaque ipsa</p>
+              </li>
+              <li class="hero__item">
+                <p class="hero__item-text">
+                  Sit voluptatem accusantium doloremque laudantium
+                </p>
+              </li>
+              <li class="hero__item">
+                <p class="hero__item-text">
+                  Sed ut perspiciatis, unde omnis iste natus error
+                </p>
+              </li>
+            </ul>
+            <div class="hero__buttons">
+              <a href="#" class="button button--accent">заказать</a>
+              <a href="#" class="button button--simple">подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <div class="layout">
+        <section class="section">
+          <h2 class="section__title">
+            оформление <span class="section__title-accent">заказа</span>
+          </h2>
+          <p class="section__subtitle">
+            Перед заполнением формы ознакомьтесь с нашей схемой работы!
+          </p>
+          <div class="features">
+            <div class="feature">
+              <div class="feature__visual">
+                <span class="feature__icon feature__icon--search"></span>
+              </div>
+              <p class="feature__text">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="feature">
+              <div class="feature__visual">
+                <span class="feature__icon feature__icon--percent"></span>
+              </div>
+              <p class="feature__text">Сonsecteturadipiscing elit</p>
+            </div>
+            <div class="feature">
+              <div class="feature__visual">
+                <span class="feature__icon feature__icon--document"></span>
+              </div>
+              <p class="feature__text">Sed do eiusmod tempor</p>
+            </div>
+            <div class="feature">
+              <div class="feature__visual">
+                <span class="feature__icon feature__icon--envelope"></span>
+              </div>
+              <p class="feature__text">Esse cillum dolore</p>
+            </div>
+            <div class="feature">
+              <div class="feature__visual">
+                <span class="feature__icon feature__icon--bill"></span>
+              </div>
+              <p class="feature__text">
+                Excepteur sint occaecat cupidatat non proident
+              </p>
+            </div>
+          </div>
+          <form action="#" method="post" class="form">
+            <fieldset class="form__field-group">
+              <label for="systype" class="field">
+                <div class="custom-select" data-custom-select>
+                  <button
+                    type="button"
+                    class="custom-select__trigger"
+                    aria-haspopup="listbox"
+                    aria-expanded="false"
+                    data-select-trigger
+                  >
+                    <span class="custom-select__value" data-select-value
+                      >Выберите тип системы</span
+                    >
+                    <span class="custom-select__caret" aria-hidden="true"></span>
+                  </button>
+                  <ul
+                  class="custom-select__menu"
+                  role="listbox"
+                  data-select-menu
+                >
+                  <li
+                    class="custom-select__option custom-select__option--active"
+                    role="option"
+                    data-value="1"
+                    data-select-option
+                  >
+                    Sed ut perspiciatis
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="2"
+                      data-select-option
+                    >
+                      Nemo enim ipsam
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="3"
+                      data-select-option
+                    >
+                      Et harum quidem
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="4"
+                      data-select-option
+                    >
+                      Temporibus autem
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="5"
+                      data-select-option
+                    >
+                      Itaque earum rerum
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="6"
+                      data-select-option
+                    >
+                      Sed ut perspiciatis
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="7"
+                      data-select-option
+                    >
+                      Nemo enim ipsam
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="8"
+                      data-select-option
+                    >
+                      Et harum quidem
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="9"
+                      data-select-option
+                    >
+                      Temporibus autem
+                    </li>
+                    <li
+                      class="custom-select__option"
+                      role="option"
+                      data-value="10"
+                      data-select-option
+                    >
+                      Itaque earum rerum
+                    </li>
+                  </ul>
+                  <select
+                    class="custom-select__native"
+                    name="systype"
+                    id="systype"
+                  >
+                    <option value="" disabled>Выберите тип системы</option>
+                    <option value="1" selected>Sed ut perspiciatis</option>
+                    <option value="2">Nemo enim ipsam</option>
+                    <option value="3">Et harum quidem</option>
+                    <option value="4">Temporibus autem</option>
+                    <option value="5">Itaque earum rerum</option>
+                    <option value="6">Sed ut perspiciatis</option>
+                    <option value="7">Nemo enim ipsam</option>
+                    <option value="8">Et harum quidem</option>
+                    <option value="9">Temporibus autem</option>
+                    <option value="10">Itaque earum rerum</option>
+                  </select>
+                </div>
+              </label>
+              <label for="email" class="field">
+                <span class="field__label sr-only">Ваш e-mail</span>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="field__control"
+                  placeholder="Ваш e-mail"
+                />
+              </label>
+              <label for="name" class="field">
+                <span class="field__label sr-only">Ваше имя</span>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="field__control"
+                  placeholder="Ваше имя"
+                />
+              </label>
+            </fieldset>
+            <fieldset class="form__field-group">
+              <div class="form__cell form__cell--span-2">
+                <div class="slider" data-slider>
+                  <div class="slider__header">
+                    <p class="slider__title">
+                      Sed ut perspiciatis, unde omnis iste natus
+                    </p>
+                    <div class="slider__value">
+                      <span class="slider__value-number" data-slider-value>75</span>
+                      <span class="slider__value-percent">%</span>
+                    </div>
+                  </div>
+                  <div class="slider__control">
+                    <input
+                      type="range"
+                      class="slider__range"
+                      min="0"
+                      max="100"
+                      value="75"
+                      step="1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="upload">
+                <input
+                type="file"
+                name="file"
+                id="file"
+                class="upload__input"
+                />
+                <label for="file" class="upload__label">
+                  <span class="upload__icon"></span>
+                  <span class="upload__text">прикрепить файл</span>
+                </label>
+              </div>
+            </fieldset>
+            <fieldset class="form__field-group">
+              <div class="form__cell form__cell--2">
+                <button class="button button--accent form__submit" type="submit">
+                  Отправить
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="layout">
+        <div class="footer__container">
+          <p class="footer__copyright">
+            &copy; 2018 «LoremIpsum.net» Все права защищены.
+          </p>
+          <ul class="footer__payments">
+            <li class="footer__payment">
+              <span class="footer__icon footer__icon--qiwi"></span>
+              <span class="footer__text footer__text--dim">Qiwi wallet</span>
+            </li>
+            <li class="footer__payment">
+              <span class="footer__icon footer__icon--ym"></span>
+              <span class="footer__text footer__text--dim">Yandex Money</span>
+            </li>
+            <li class="footer__payment">
+              <span class="footer__icon footer__icon--wm"></span>
+              <span class="footer__text footer__text--dim">Web Money</span>
+            </li>
+          </ul>
+          <ul class="footer__contacts">
+            <li class="footer__contact">
+              <span class="footer__icon footer__icon--mail"></span>
+              <a href="#" class="footer__link">info@ipsum228.com</a>
+            </li>
+            <li class="footer__contact">
+              <span class="footer__icon footer__icon--vk"></span>
+              <a href="#" class="footer__link">Мы вконтакте</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- inject:js -->
+    <!-- endinject -->
+  </body>
+</html>
