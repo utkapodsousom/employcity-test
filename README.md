@@ -2,6 +2,8 @@
 
 Одностраничный лендинг, сверстанный на HTML/SCSS с использованием Gulp для сборки и деплоя на GitHub Pages.
 
+[Ссылка на лендинг](https://utkapodsousom.github.io/employcity-test/)
+
 ## Скрипты
 - `npm run dev` — сборка в dev-режиме с вотчером и browser-sync.
 - `npm run build` — production-сборка в `dist/`.
